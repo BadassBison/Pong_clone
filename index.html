@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>JS Game Coding</title>
+		<link rel="stylesheet" href="main.css">
+
+	</head>
+	<body>
+
+
+			<canvas id="gameCanvas" width="1260" height="800"></canvas>
+
+
+
+
+			<div id="container" class="open">
+			<div id="start">
+				<ul>
+					<li>
+						<input type="radio" name="players" id="1player" checked="checked" onclick="addDifficulty();">
+						<label for="1player">1 Player</label>
+						<div class="check"></div>
+	  				</li>
+
+					<li>
+						<input type="radio" name="players" id="2player" onclick="removeDifficulty();">
+						<label for="2player">2 Player</label>
+						<div class="check"></div>
+	  				</li>
+	  			</ul>
+	  		</div>
+
+	  		<div id="start2">
+	  			<ul>
+	  				<li id="liEasy">
+						<input type="radio" name="difficulty" id="easy">
+						<label for="easy">Easy</label>
+						<div class="check"></div>
+	  				</li>
+
+					<li>
+						<input type="radio" name="difficulty" id="medium" checked="checked">
+						<label for="medium">Medium</label>
+						<div class="check"></div>
+	  				</li>
+
+					<li>
+						<input type="radio" name="difficulty" id="hard">
+						<label for="hard">hard</label>
+						<div class="check"></div>
+	  				</li>
+				</ul>
+			</div>
+
+			<div id="btn">
+				<button id="startbtn" onclick="gameStart()">Start Game</button>
+			</div>
+
+			<div id="start3">
+				<h3>1 Player Mode</h3>
+				<p>Use track pad for controls</p>
+			</div>
+
+			<div id="start4">
+				<h3>2 Player Mode</h3>
+				<p>Player 1 (left)<br>A = Up<br>Z = Down</p>
+				<p>Player 2 (right)<br>Use arrows</p>
+			</div>
+
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
