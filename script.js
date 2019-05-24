@@ -416,7 +416,7 @@ function drawEverything (){
 		gradient.addColorStop("0.7","red");
 		canvasContext.font="120px Fantasy";
 		canvasContext.fillStyle=gradient;
-		canvasContext.fillText("PONG", canvas.width/2 - 180, canvas.height/2 - 60);
+		canvasContext.fillText("PONG", canvas.width/2 - 180, 260);
 	}
 
 	// Show winning message

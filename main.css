@@ -4,30 +4,40 @@
 
 #start{
 	position: absolute;
-	width: 400px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	top: 260px;
-	left: 33%;
+}
+
+#start ul{
+	display: flex;
+	justify-content: space-around;
+	width: 25%;
+	min-width: 400px;
 }
 
 #start2{
 	position: absolute;
-	width: 600px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	top: 330px;
-	left: 28%;
 }
 
-#start3{
+#start2 ul{
+	display: flex;
+	justify-content: space-around;
+	width: 35%;
+	min-width: 30%;
+}
+
+.bottom{
 	position: absolute;
-	width: 220px;
 	top: 500px;
-	left: 20%;
-}
-
-#start4{
-	position: absolute;
-	width: 260px;
-	top: 490px;
-	left: 62%;
+	display: flex;
+	justify-content: space-around;
+	width: 100%
 }
 
 p{
@@ -67,7 +77,9 @@ button:active{
 
 #btn{
 	position: absolute;
-	left: 43%;
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	top: 450px;
 }
 
